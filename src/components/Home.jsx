@@ -1,4 +1,6 @@
 import React from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+
 
 const Home = () => {
   return (
@@ -6,7 +8,7 @@ const Home = () => {
       <div className="image-container position-relative">
         <img
           className="img-fluid"
-          src="./default/images/hero-bg.jpg"
+          src="/src/assets/images/hero-bg.jpg"
           alt="hero-bg"
         />
         <div className="text-one position-absolute top-50 start-50 translate-middle text-center text-white">
@@ -47,7 +49,7 @@ const Home = () => {
             </div>
             <div className="modal-body d-flex justify-content-around text-white">
               <img
-                src="./default/images/vidnoz_cartoon_1738241058716.jpg"
+                src="/src/assets/images/vidnoz_cartoon_1738241058716.jpg"
                 alt="Image GitHub"
                 style={{ maxWidth: 250, marginRight: 25 }}
               />
@@ -100,7 +102,7 @@ const Home = () => {
           <div className="col-lg-6 col-md-12 mt-4">
             <h3 className="border-bottom border-3 border-primary p-2">A propos</h3>
             <img
-              src="./default/images/john-doe-about.jpg"
+              src="src/assets/images/john-doe-about.jpg"
               className="mt-4 mb-2 img-fluid"
               alt="A propos"
             />

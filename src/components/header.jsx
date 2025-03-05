@@ -1,36 +1,36 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const Header = () => {
   return (
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"><small>William</small></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+      <div className="container-fluid">
+        <Link to="/" className="navbar-brand">Mon Portfolio</Link>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-uppercase" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html"><ins>Home</ins></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link underline-hover" href="./offre.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link underline-hover" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link underline-hover" href="./contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link underline-hover" href="./mentions-legales.html">Mentions legales</a>
-                </li>
-            </ul>
+        <div className="collapse navbar-collapse text-uppercase" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <Link className="nav-link active" to="/">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link underline-hover" to="/services">Services</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link underline-hover" to="/portfolio">Portfolio</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link underline-hover" to="/contact">Contact</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link underline-hover" to="/legal">Mentions légales</Link>
+            </li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
   );
 };
 

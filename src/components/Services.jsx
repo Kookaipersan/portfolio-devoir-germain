@@ -3,6 +3,14 @@ import React from 'react';
 const Services = () => {
   return (
     <>
+    <div className="image-container position-relative">
+  <img
+    src= "/src/assets/images/banner.jpg"
+    className="w-100 min-vh-50"
+    alt="banner"
+  />
+</div>
+    
     <div className="container-fluid">
       <h2 className="fw-bold text-center mt-4">Mon offre de services</h2>
       <p className="text-center">

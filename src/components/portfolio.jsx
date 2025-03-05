@@ -5,6 +5,13 @@ const Portfolio = () => {
     return (
 
 <>
+<div className="image-container position-relative">
+  <img
+    src= "/src/assets/images/banner.jpg"
+    className="w-100 min-vh-50"
+    alt="banner"
+  />
+</div>
   <div className="container-fluid">
     <h2 className="fw-bold text-center mt-4">Portfolio</h2>
     <p className="text-center">Voici quelques une de mes réalisations</p>
@@ -20,7 +27,7 @@ const Portfolio = () => {
         <div className="col-lg-4 col-md-6 mt-4 d-flex justify-content-center">
           <div className="card hover-card m-3" style={{ width: "20rem" }}>
             <img
-              src="./default/images/portfolio/fresh-food.jpg"
+              src="src/assets/images/portfolio/fresh-food.jpg"
               className="card-img-top"
               alt="Fresh food"
             />
@@ -41,7 +48,7 @@ const Portfolio = () => {
         <div className="col-lg-4 col-md-6 mt-4 d-flex justify-content-center">
           <div className="card hover-card m-3" style={{ width: "20rem" }}>
             <img
-              src="./default/images/portfolio/restaurant-japonais.jpg"
+              src="src/assets/images/portfolio/restaurant-japonais.jpg"
               className="card-img-top"
               alt="Restaurant japonais"
             />
@@ -62,7 +69,7 @@ const Portfolio = () => {
         <div className="col-lg-4 col-md-6 mt-4 d-flex justify-content-center">
           <div className="card hover-card m-3" style={{ width: "20rem" }}>
             <img
-              src="./default/images/portfolio/espace-bien-etre.jpg"
+              src="src/assets/images/portfolio/espace-bien-etre.jpg"
               className="card-img-top"
               alt="Bien être"
             />
@@ -81,7 +88,7 @@ const Portfolio = () => {
         <div className="col-lg-4 col-md-6 mt-4 d-flex justify-content-center">
           <div className="card hover-card m-3" style={{ width: "20rem" }}>
             <img
-              src="./default/images/portfolio/seo.jpg"
+              src="src/assets/images/portfolio/seo.jpg"
               className="card-img-top"
               alt="SEO"
             />
@@ -102,7 +109,7 @@ const Portfolio = () => {
         <div className="col-lg-4 col-md-6 mt-4 d-flex justify-content-center">
           <div className="card hover-card m-3" style={{ width: "20rem" }}>
             <img
-              src="./default/images/portfolio/coder.jpg"
+              src="src/assets/images/portfolio/coder.jpg"
               className="card-img-top"
               alt="API"
             />
@@ -121,7 +128,7 @@ const Portfolio = () => {
         <div className="col-lg-4 col-md-6 mt-4 d-flex justify-content-center">
           <div className="card hover-card m-3" style={{ width: "20rem" }}>
             <img
-              src="./default/images/portfolio/screens.jpg"
+              src="src/assets/images/portfolio/screens.jpg"
               className="card-img-top"
               alt="Maquette"
             />
