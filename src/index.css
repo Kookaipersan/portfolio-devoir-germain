@@ -1,57 +1,59 @@
 :root {
-/* Générales */
-* {
-  font-family: "Nunito", sans-serif;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Pour insérer du texte dans l'image */
-.image-container {
-  position: relative;
-}
+  /* Générales */
+  * {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-/* Ajustement des tailles de polices pour les titres et textes */
-h1 {
-  font-size: 6vw;
-  margin: 0;
-}
+  /* Pour insérer du texte dans l'image */
+  .image-container {
+    position: relative;
+  }
 
-h2 {
-  font-size: 2rem;
-  margin: 0;
-}
+  /* Ajustement des tailles de polices pour les titres et textes */
+  h1 {
+    font-size: 6vw;
+    margin: 0;
+  }
 
-h3 {
-  font-size: 22px;
-}
+  h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
 
-h5 {
-  font-size: 18px;
-}
+  h3 {
+    font-size: 22px;
+  }
 
-.text {
-  font-size: 15px;
-}
+  h5 {
+    font-size: 18px;
+  }
 
-footer {
-  font-size: 14px;
-}
+  .text {
+    font-size: 15px;
+  }
 
-.nav-item {
-  font-size: 14px;
-}
+  footer {
+    font-size: 14px;
+  }
 
-/* Soulignement lors du survol dans le header */
-.underline-hover:hover {
-  text-decoration: underline;
-}
+  .nav-item {
+    font-size: 14px;
+  }
 
-.icon-dark {
-  color: #555; /* Gris foncé */
-}
+  /* Soulignement lors du survol dans le header */
+  .underline-hover:hover {
+    text-decoration: underline;
+  }
+
+  .icon-dark {
+    color: #555;
+    /* Gris foncé */
+  }
 
 }
 
@@ -73,8 +75,10 @@ footer {
 .content::after {
   content: "";
   display: block;
-  border-bottom: 1px solid #3c3c3c; /* Ligne de séparation */
-  margin-top: 10px; /* Espace au-dessus de la ligne */
+  border-bottom: 1px solid #3c3c3c;
+  /* Ligne de séparation */
+  margin-top: 10px;
+  /* Espace au-dessus de la ligne */
 }
 
 /* Section générale */
