@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { FaMapMarkerAlt, FaIdCard, FaBox, FaUserPlus, FaUsers } from 'react-icons/fa';
 
 
 const Home = () => {

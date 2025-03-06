@@ -49,9 +49,10 @@ footer {
   text-decoration: underline;
 }
 
-/* Couleur des icônes dans le footer */
-.social-icons i {
-  color: #555;
+.icon-dark {
+  color: #555; /* Gris foncé */
+}
+
 }
 
 /* Au survol des icônes dans le footer */
